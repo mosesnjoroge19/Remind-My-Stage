@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluebase"
+    android:fadingEdge="horizontal|vertical"
+    tools:context=".Splashscreen">
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="138dp"
+        android:layout_height="153dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:src="@drawable/alarmicon" />
+
+    <Button
+        android:id="@+id/text_button"
+        style="@android:style/ButtonBar"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="179dp"
+        android:background="#FF044078"
+        android:ellipsize="middle"
+        android:enabled="true"
+        android:fadingEdge="horizontal|vertical"
+        android:text="THANK YOU FOR DOWNLOADING
+  THIS APP"
+        android:textAlignment="center"
+        android:textColor="#FFFBFBFC"
+        android:visibility="visible" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="71dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+</RelativeLayout>
